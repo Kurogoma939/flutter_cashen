@@ -14,7 +14,7 @@ dependencies:
 
   cupertino_icons: ^1.0.2
   font_awesome_flutter: ^9.1.0
-  flutter_launcher_icons: ^0.9.1
+  flutter_launcher_icons: any
   # $ flutter pub pub run flutter_launcher_icons:main
   expansion_tile_card: ^2.0.0
   hooks_riverpod: ^0.14.0+4
@@ -44,6 +44,10 @@ flutter:
 #        - asset: assets/fonts/PottaOne-Regular.ttf
 
 flutter_icons:
-  android: true
   ios: true
-  image_path: "assets/icon/icon.png"
+  android: true
+  image_path_ios: "assets/icons/appstore.png"
+  image_path_android: "assets/icons/appstore.png"
+  adaptive_icon_foreground: "assets/icons/appstore.png"
+  adaptive_icon_background: "assets/icons/appstore.png"
+
