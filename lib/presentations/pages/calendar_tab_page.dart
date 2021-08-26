@@ -13,6 +13,7 @@ class CalendarTab extends StatelessWidget {
           title: const Text('カレンダー'),
           centerTitle: true,
           elevation: 1,
+          backgroundColor: Colors.white,
         ),
       ),
       body: Center(

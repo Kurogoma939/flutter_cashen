@@ -13,6 +13,7 @@ class HomeTab extends StatelessWidget {
           title: const Text('Cashen'),
           centerTitle: true,
           elevation: 1,
+          backgroundColor: Colors.white,
         ),
       ),
       body: Center(

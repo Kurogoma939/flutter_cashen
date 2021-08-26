@@ -13,6 +13,7 @@ class SettingTab extends StatelessWidget {
           title: const Text('設定'),
           centerTitle: true,
           elevation: 1,
+          backgroundColor: Colors.white,
         ),
       ),
       body: Center(

@@ -9,16 +9,10 @@ class AddTab extends StatelessWidget {
       appBar: PreferredSize(
         preferredSize: const Size.fromHeight(55),
         child: AppBar(
-          leading: IconButton(
-            icon: Icon(Icons.arrow_back_rounded),
-            onPressed: () {
-              Navigator.pop(context);
-            },
-          ),
-          automaticallyImplyLeading: false,
-          title: const Text('Cashen'),
+          title: const Text('登録する'),
           centerTitle: true,
           elevation: 1,
+          backgroundColor: Colors.white,
         ),
       ),
       body: Center(
