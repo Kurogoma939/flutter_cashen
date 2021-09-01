@@ -1,7 +1,14 @@
 import 'package:flutter/material.dart';
 
-class SettingTab extends StatelessWidget {
+class SettingTab extends StatefulWidget {
   const SettingTab({Key? key}) : super(key: key);
+
+  @override
+  _SettingTabState createState() => _SettingTabState();
+}
+
+class _SettingTabState extends State<SettingTab> {
+  int _value = 6;
 
   @override
   Widget build(BuildContext context) {
@@ -9,15 +16,21 @@ class SettingTab extends StatelessWidget {
       appBar: PreferredSize(
         preferredSize: const Size.fromHeight(55),
         child: AppBar(
-          automaticallyImplyLeading: false,
-          title: const Text('設定'),
+          title: const Text('設定画面'),
           centerTitle: true,
           elevation: 1,
           backgroundColor: Colors.white,
         ),
       ),
-      body: Center(
-        child: Text('setting'),
+      body: Container(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Text('わーい'),
+            Text('わっしょい'),
+            Text('イェイ'),
+          ],
+        ),
       ),
     );
   }

@@ -21,7 +21,7 @@ class _CashenHomeState extends State<CashenHome> {
   ///ページリストの表示
   final tabs = <Widget>[
     const HomeTab(),
-    const CalendarTab(),
+    CalendarTab(),
     const HistoryTab(),
     const SettingTab(),
   ];

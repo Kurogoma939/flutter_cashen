@@ -2,7 +2,6 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-///完全ダミーだが、値は変わっていくのでStatefulで管理
 class HistoryTab extends StatelessWidget {
   const HistoryTab({Key? key}) : super(key: key);
 
@@ -84,6 +83,8 @@ class HistoryTab extends StatelessWidget {
                   itemCount: 30,
                   itemBuilder: (BuildContext context, int index) {
                     return ListTile(
+                      /// Todo : 詳細ページに遷移
+                      onTap: () {},
                       leading: Icon(
                         FontAwesomeIcons.shoppingCart,
                         size: 30,
