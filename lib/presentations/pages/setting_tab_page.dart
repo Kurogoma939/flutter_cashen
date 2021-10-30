@@ -26,11 +26,29 @@ class _SettingTabState extends State<SettingTab> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Text('わーい'),
+            RemindSwitch(),
             Text('わっしょい'),
             Text('イェイ'),
           ],
         ),
+      ),
+    );
+  }
+}
+
+class RemindSwitch extends StatelessWidget {
+  const RemindSwitch({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      child: Row(
+        children: <Widget>[
+          Text(
+            'リマインド設定',
+            style: TextStyle(fontSize: 20),
+          ),
+        ],
       ),
     );
   }

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>828903119553-3v2d3ekjvc7bd5gpnt00ap3sev0a0k74.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.828903119553-3v2d3ekjvc7bd5gpnt00ap3sev0a0k74</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCwVJ4VAnMFz53osifJeJ9UNF5_9m0O9oU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>828903119553</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.cashen.kuromatty.cashen</string>
+	<key>PROJECT_ID</key>
+	<string>cashen-78415</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cashen-78415.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:828903119553:ios:936048d98d9009988d5240</string>
+</dict>
+</plist>

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "828903119553",
+    "project_id": "cashen-78415",
+    "storage_bucket": "cashen-78415.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828903119553:android:ab1e11d06cb533bc8d5240",
+        "android_client_info": {
+          "package_name": "com.cashen.kuromatty.cashen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828903119553-1p3cs73hdpc017j37mnhr8abq21n3gm1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7ZernbE99Daxl8ztzwY2lMQHKHuYuXy4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828903119553-1p3cs73hdpc017j37mnhr8abq21n3gm1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "828903119553-3v2d3ekjvc7bd5gpnt00ap3sev0a0k74.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cashen.kuromatty.cashen"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
